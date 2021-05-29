@@ -1,0 +1,9 @@
+.info_container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 2em;
+  margin-bottom: 2em;
+  margin-top: 5em;
+}

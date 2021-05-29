@@ -1,0 +1,75 @@
+.launches_container {
+  padding: 0 5em;
+  margin-top: 5em;
+}
+
+.launches_list {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
+  row-gap: 2em;
+  column-gap: 1em;
+  margin-bottom: 2em;
+  height: 5em;
+  box-shadow: 0px 2px 5px 2px rgba(5, 5, 5, 0.575);
+}
+
+.each_launch_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.arrow_nav {
+  height: 100%;
+}
+
+.arrow_nav:hover {
+  background-color: rgb(8, 8, 8);
+  color: white;
+  box-shadow: 0px 0px 5px 3px white;
+}
+
+.mission_hover:hover {
+  background-color: rgb(25, 30, 78);
+  color: white;
+  box-shadow: 0px 0px 5px 3px white;
+}
+
+.launch_main {
+  color: white !important;
+  background-image: linear-gradient(
+    180deg,
+    rgb(18, 20, 53),
+    rgba(163, 163, 163, 0.877)
+  );
+  box-shadow: 0px 2px 5px 2px rgba(5, 5, 5, 0.575) !important;
+}
+
+.launch_success {
+  display: flex;
+  justify-content: flex-end;
+  color: chartreuse;
+}
+
+.launch_reject {
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(255, 38, 0);
+}
+
+.launches_info_mission {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1;
+}
+
+.launch_mission {
+  width: 40em;
+}
+
+.launch_youtube {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
