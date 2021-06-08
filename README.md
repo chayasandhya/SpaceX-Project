@@ -1,4 +1,5 @@
 # Space X project
+- hosten on AWS: https://main.d1o1pzzbzsylf0.amplifyapp.com/
 
 ## Project features
 
